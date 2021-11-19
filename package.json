@@ -4,7 +4,9 @@
   "description": "landing page",
   "main": "index.js",
   "scripts": {
-    "test": "try me"
+    "test": "try me",
+    "start": "node ./js/index.js"
+    
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/0xfrankwhite/dsg/issues"
   },
-  "homepage": "https://github.com/0xfrankwhite/dsg#readme"
+  "homepage": "https://github.com/0xfrankwhite/dsg#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "server": "^1.0.36"
+  }
 }
